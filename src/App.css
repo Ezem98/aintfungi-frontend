@@ -1,0 +1,31 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 6vh 6vh;
+}
+
+.swiper {
+  width: 25vw;
+  height: 55vh;
+}
+
+.swiper-slide {
+  border-radius: 18px;
+}
+
+.swiper-pagination {
+  position: absolute !important;
+  bottom: -25% !important;
+  left: -90% !important;
+}
+
+.swiper-pagination-bullet {
+  width: 1rem !important;
+  height: 1rem !important;
+  background: #8591B6 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #A9549A !important;
+}
